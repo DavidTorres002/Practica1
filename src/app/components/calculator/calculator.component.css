@@ -1,0 +1,36 @@
+#tabla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+#table{
+    background-color: rgb(61, 45, 45);
+    border-radius: 5%;
+}    
+
+input{
+    border-color: blueviolet;
+    width: 40px;
+    height: 40px;
+    font-size: medium   ;
+    font-style: italic;
+    background-color: rgb(37, 35, 33);
+    color: antiquewhite;
+}
+
+#pantalla{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    width: max-content;
+    font-size: larger;
+    
+}
+
+#igual{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center   ;
+    
+}

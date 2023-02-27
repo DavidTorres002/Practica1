@@ -1,0 +1,48 @@
+<calculator></calculator>
+
+<div id="tabla">
+    <table id="table">
+    <tr>
+    <td colspan="4"><input [(ngModel)]="mostrar" type="text" id="pantalla"></td>
+    </tr>
+    <br>
+    <tr>
+    <td><input type="button" value="1" (click)="pressNum('1')"></td>
+    <td><input type="button" value="2" (click)="pressNum('2')"></td>
+    <td><input type="button" value="3" (click)="pressNum('3')"></td>
+    <td><input type="button" value="+" (click)="pressNum('+')"></td>
+    </tr>
+    
+    <tr>
+    <td><input type="button" value="4" (click)="pressNum('4')"></td>
+    <td><input type="button" value="5" (click)="pressNum('5')"></td>
+    <td><input type="button" value="6" (click)="pressNum('6')"></td>
+    <td><input type="button" value="*" (click)="pressNum('*')"></td>
+    </tr>
+    
+    <tr>
+    <td><input type="button" value="7" (click)="pressNum('7')"></td>
+    <td><input type="button" value="8" (click)="pressNum('8')"></td>
+    <td><input type="button" value="9" (click)="pressNum('9')"></td>
+    <td><input type="button" value="-" (click)="pressNum('-')"></td>
+    </tr>
+    
+    <tr>
+    <td><input type="button" value="0" (click)="pressNum('0')"></td>
+    <td><input type="button" value="." (click)="pressNum('.')"></td>
+    <td><input type="button" value="C" (click)="clear()"></td>
+    <td><input type="button" value="/" (click)="pressNum('/')"></td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <button type="button" value="=" (click)="resultado()" id="igual" >=</button>
+        </td>
+    </tr>
+    
+    </table>
+</div>
+
+<div>
+    <app-palindromo></app-palindromo>
+    <app-potencia></app-potencia>
+</div>
