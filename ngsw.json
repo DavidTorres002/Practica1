@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1680144365699,
+  "index": "https://DavidTorres002.github.io/Practica1/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://DavidTorres002.github.io/Practica1/favicon.ico",
+        "https://DavidTorres002.github.io/Practica1/index.html",
+        "https://DavidTorres002.github.io/Practica1/main.ac9fb1eb9024c887.js",
+        "https://DavidTorres002.github.io/Practica1/manifest.webmanifest",
+        "https://DavidTorres002.github.io/Practica1/polyfills.31a987a271616e9d.js",
+        "https://DavidTorres002.github.io/Practica1/runtime.ffe0f665ff457994.js",
+        "https://DavidTorres002.github.io/Practica1/styles.6b155c30a935e984.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://DavidTorres002.github.io/Practica1/assets/icons/icon-128x128.png",
+        "https://DavidTorres002.github.io/Practica1/assets/icons/icon-144x144.png",
+        "https://DavidTorres002.github.io/Practica1/assets/icons/icon-152x152.png",
+        "https://DavidTorres002.github.io/Practica1/assets/icons/icon-192x192.png",
+        "https://DavidTorres002.github.io/Practica1/assets/icons/icon-384x384.png",
+        "https://DavidTorres002.github.io/Practica1/assets/icons/icon-512x512.png",
+        "https://DavidTorres002.github.io/Practica1/assets/icons/icon-72x72.png",
+        "https://DavidTorres002.github.io/Practica1/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://DavidTorres002.github.io/Practica1/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://DavidTorres002.github.io/Practica1/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://DavidTorres002.github.io/Practica1/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://DavidTorres002.github.io/Practica1/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://DavidTorres002.github.io/Practica1/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://DavidTorres002.github.io/Practica1/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://DavidTorres002.github.io/Practica1/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://DavidTorres002.github.io/Practica1/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://DavidTorres002.github.io/Practica1/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://DavidTorres002.github.io/Practica1/index.html": "de694dd1e597f0924c3503706a93deb13e85eea1",
+    "https://DavidTorres002.github.io/Practica1/main.ac9fb1eb9024c887.js": "3f83e31f8dfc7e2128cb2a1a7f8dad9ce339efae",
+    "https://DavidTorres002.github.io/Practica1/manifest.webmanifest": "7bb448531591d91ac720d863da5f62b4a98a5c05",
+    "https://DavidTorres002.github.io/Practica1/polyfills.31a987a271616e9d.js": "38d8430bbe6cc3ec5a618e5915297c5e85a2dfa2",
+    "https://DavidTorres002.github.io/Practica1/runtime.ffe0f665ff457994.js": "0938c9c998291540b459ca08cdd3b3f41d050d77",
+    "https://DavidTorres002.github.io/Practica1/styles.6b155c30a935e984.css": "d1fc58ccc11c34cadcccb2f063dcd70741c1ad0d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
